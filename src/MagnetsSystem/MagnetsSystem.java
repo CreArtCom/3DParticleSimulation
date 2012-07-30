@@ -1,7 +1,7 @@
 package MagnetsSystem;
 
 import ParticlesSystem.Particle;
-import Simulation.Particles;
+import Simulation3D.Particles;
 import Utils.Line3;
 import Utils.Plane;
 import Utils.Vector3;
@@ -26,7 +26,7 @@ public class MagnetsSystem
 	/** Determine if magnets are appliable on particles */
 	protected boolean enable;
 
-	public MagnetsSystem(Simulation.Particles simulation)
+	public MagnetsSystem(Simulation3D.Particles simulation)
 	{
 		this.simulation	= simulation;
 		this.magnets	= new HashMap<Integer, Magnet>();

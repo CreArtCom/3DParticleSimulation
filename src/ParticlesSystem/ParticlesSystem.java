@@ -5,8 +5,8 @@ import BlobsSystem.BlobsSystem;
 import BlobsSystem.Brush;
 import MagnetsSystem.MagnetsSystem;
 import MagnetsSystem.PointMagnet;
-import Simulation.Max;
-import Simulation.Particles;
+import Simulation3D.Max;
+import Simulation3D.Particles;
 import Utils.Vector2;
 import Utils.Vector3;
 import com.cycling74.jitter.JitterMatrix;
@@ -100,7 +100,7 @@ public class ParticlesSystem
 	 * Construct a particles' System
 	 * @param simulation Object responsible for conducting the simulation
 	 */
-	public ParticlesSystem(Simulation.Particles simulation, MagnetsSystem magnetsSystem, BlobsSystem blobsSystem) 
+	public ParticlesSystem(Simulation3D.Particles simulation, MagnetsSystem magnetsSystem, BlobsSystem blobsSystem) 
 	{
 		this.simulation			= simulation;
 		this.magnetsSystem		= magnetsSystem;
@@ -455,7 +455,7 @@ public class ParticlesSystem
 		int inf = Math.min(dim[0], maxParticles);
 		
 		if(inf == maxParticles)
-			simulation.printOut("You are trying to add " + dim[0] + " particles but I can't contain more than " + maxParticles + " particles. See the \"" + Simulation.Particles.MSG_MAXPART + "\" message.");
+			simulation.printOut("You are trying to add " + dim[0] + " particles but I can't contain more than " + maxParticles + " particles. See the \"" + Simulation3D.Particles.MSG_MAXPART + "\" message.");
 		
 		semaphore.acquireUninterruptibly();
 		particles.clear();

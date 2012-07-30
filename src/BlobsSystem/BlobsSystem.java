@@ -1,6 +1,6 @@
 package BlobsSystem;
 
-import Simulation.Simulation;
+import Simulation3D.Simulation;
 import Utils.Vector3;
 import java.util.ArrayList;
 import java.util.HashMap;

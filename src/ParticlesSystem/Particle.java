@@ -1,6 +1,6 @@
 package ParticlesSystem;
 
-import Simulation.Max;
+import Simulation3D.Max;
 import Utils.Vector3;
 import java.util.ArrayList;
 import java.util.List;
