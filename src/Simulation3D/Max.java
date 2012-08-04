@@ -1,7 +1,7 @@
 package Simulation3D;
 
-import Utils.LinearScale3;
-import Utils.Vector3;
+import Utils3D.LinearScale3;
+import Utils3D.Vector3;
 import com.cycling74.jitter.JitterMatrix;
 import com.cycling74.max.Atom;
 import com.cycling74.max.MaxObject;

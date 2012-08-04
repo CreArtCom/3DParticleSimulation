@@ -1,7 +1,7 @@
 package Simulation3D;
 
-import BlobsSystem.BlobsSystem;
-import Utils.Vector3;
+import BlobsSystem3D.BlobsSystem;
+import Utils3D.Vector3;
 import com.cycling74.max.Atom;
 
 /**

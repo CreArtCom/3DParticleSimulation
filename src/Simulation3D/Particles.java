@@ -1,11 +1,11 @@
 package Simulation3D;
 
-import BlobsSystem.Blob;
-import MagnetsSystem.MagnetsSystem;
-import ParticlesSystem.ParticlesSystem;
-import Utils.Line3;
-import Utils.Plane;
-import Utils.Vector3;
+import BlobsSystem3D.Blob;
+import MagnetsSystem3D.MagnetsSystem;
+import ParticlesSystem3D.ParticlesSystem;
+import Utils3D.Line3;
+import Utils3D.Plane;
+import Utils3D.Vector3;
 import com.cycling74.jitter.JitterMatrix;
 import com.cycling74.max.Atom;
 
